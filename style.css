@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  background-color: #2f3640;
+}
+
+header {
+  background-color: #44bd32;
+}
+header .container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-bottom: 80px;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 0px;
+  cursor: pointer;
+}
+
+.items .item .attributes {
+  padding: 20px;
+  color: white;
+}
+.items .item .attributes .number {
+  font-size: 20px;
+}
+.items .item {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 25px;
+  color: #2f3640;
+}
+
+.items .item:active {
+  cursor: grabbing;
+}
+
+.buttons {
+  gap: 20px;
+  display: flex;
+  justify-content: right;
+  margin-bottom: 50px;
+}
+
+.buttons button {
+  transition: 0.1s;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  min-width: 150px;
+  color: white;
+  background-color: #44bd32;
+}
+
+.buttons button:hover {
+  background-color: #39a329;
+}
