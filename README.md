@@ -1,1 +1,1 @@
-<video src='video.webm' width=180/>
+<img src="video.gif" style="width: 100%;" />
